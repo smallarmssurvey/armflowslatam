@@ -1,0 +1,11 @@
+---
+title: "Data"
+---
+
+Data sources
+
+To tackle these challenges, our project will develop a comprehensive mapping of the transnational circulation and control of military-style firearms in Latin America. Our research focuses on data from the following sources: Reporting in the framework of international treaties, such as the Arms Trade Treaty, the UN Programme of Action on SALW and the CIFTA convention, and national legislation regulating legal flows, transfers and possession of such weapons. Also, official data-sharing mechanisms when they exist. International sources on small arms (UN Comtrade, UNROCA, UNODC, and others) to identify both legal and illegal firearms flows. National datasets from official reports, customs data aggregators, security assistance reports, and court documentation. Social media data to understand firearm-related discourses, trends, and online marketplaces, employing ethnographic research to examine the digital sociability of arms-related groups.
+
+From all these sources, the project will develop interactive online data visualizations to track and display trends in firearms circulation. This will be supplemented by detailed reports, case studies, and policy recommendations, ensuring accessibility for researchers, policymakers, and the public.
+
+![](images/ChatGPT Image Jun 6, 2025, 03_51_19 PM.png){.img-background}

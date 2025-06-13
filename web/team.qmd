@@ -1,0 +1,163 @@
+---
+title: "Team"
+---
+
+We are a diverse group of practitioners and scholars with expertise in anthropology, criminology, geography, international relations, law, and sociology.
+
+```{r}
+#| warn: false
+#| message: false
+#| echo: false
+
+suppressPackageStartupMessages({
+  library(bslib)
+  library(shiny)
+  library(htmltools)
+})
+
+layout_column_wrap( width = 1/4,
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Keith Krause"), class = "bg-light"),
+  card_image(file ="images/profiles/01_keith.jpg", 
+             alt = "Keith Krause", 
+             class="profile"),
+  card_body(
+    markdown("Keith Krause has been a Professor of International Relations at the Geneva Graduate Institute since 1994, and is Director of its Centre on Conflict, Development and Peacebuilding (CCDP). From 2000 until 2016, he was also Programme Director of the Small Arms Survey, an internationally recognized research NGO he founded in 2000. An international expert on conflict prevention, peacebuilding, and armed violence, Keith has more than 30 years of experience in designing and conducting research projects for academic and policy-oriented purposes."), class="hover-info"),
+  card_footer(
+    markdown("<a href='https://www.graduateinstitute.ch/faculty/keith-krause' target='_blank'>More about Keith</a>"), 
+    class="more-info"),
+  class="hover-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Nicolas Florquin"), class = "bg-light"),
+  card_image(file ="images/profiles/02_nicolas.jpg",
+             alt = "Nicolas Florquin",
+             class="profile"),
+  card_body(
+    markdown("Nicolas Florquin is the Small Arms Survey's head of data and analytics as well as a senior researcher. He oversees projects and undertakes research on armed actors and illicit flows of arms and ammunition, with a particular focus on Africa and Europe. Nicolas previously worked for Geneva Call, an organization specializing in engaging with non-state armed groups on humanitarian issues, and for the United Nations Panel of Experts on Liberia. He holds a master’s in Public Administration from the Middlebury Institute of International Studies at Monterey, and a PhD from the University of Brighton's School of Applied Social Sciences."), class="hover-info"),
+  card_footer(
+    markdown("<a href='https://www.smallarmssurvey.org/who_we_are/our_team/nicolas-florquin' target='_blank'>More about Nicolas</a>"), class="more-info"),
+  class="hover-card"
+  ),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Monica Herz"), class = "bg-light"),
+  card_image(file ="images/profiles/03_monica.jpeg",
+             alt = "Monica Herz",
+             class="profile"),
+  card_body(
+    markdown("Monica Herz is a Senior Fellow at the Brazilian Center of International Relations (CEBRI). Monica Herz is Associate Professor and Vice-Dean of the Social Sciences Center of the Pontifical Catholic University of Rio de Janeiro. She has a PhD in International Relations from the London School of Economics and Political Science and has published three books: “International Organizations: history and practices” (coauthored with Andréa Ribeiro Hoffman and Jana Tabak), “Ecuador vs. Peru: Peacemaking Amid Rivalry” (coauthored with João Pontes Nogueira), and “Global Governance Away from the Media”."), class="hover-info"),
+  card_footer(
+    markdown("<a href='https://www.cebri.org/en/especialista/70/monica-herz' target='_blank'>More about Monica</a>"), class="more-info"),
+  class="hover-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Ignacio Cano"), class = "bg-light"),
+  card_image(file ="images/profiles/04_ignacio.jpeg", 
+             alt = "Ignacio Cano", 
+             class="profile"),
+  card_body(
+    markdown("Ignacio Cano got his joint Ph.D. in sociology and social psychology at the Universidad Complutense de Madrid (Spain) in 1991. From 1991 to 1993 he worked in attention to refugees and war-stricken populations in El Salvador, with UNHCR. He was also a member of the United Nations Truth Commission for El Salvador. He later developed post-doctoral research at the universities of Surrey (UK), Michigan, Arizona (USA) and Lancaster (UK), centred on research methodology and programme evaluation. From 1996 onwards, he has worked in Rio de Janeiro, Brazil, on topics related to violence, human rights, public security and education in an NGO called ISER."), class="hover-info"),
+  card_footer(
+    markdown("<a href='https://www.devex.com/people/ignacio-cano-1481906' target='_blank'>More about Ignacio</a>"), class="more-info"),
+  class="hover-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Gianluca Boo"), class = "bg-light"),
+  card_image(file ="images/profiles/05_gianluca.png", 
+             alt = "Gianluca Boo", 
+             class="profile"),
+  card_body(markdown("Gianluca Boo is Data Science Consultant with the Small Arms Survey and Senior Research Fellow at the University of Southampton. He holds a PhD in Geography from the University of Zurich, an MSc and BSc in Geography from the University of Lausanne, and a postgraduate certificate in GIScience from Vrije Universiteit Amsterdam. He previously served as a Senior Data Expert at the Small Arms Survey, Geneva Graduate Institute, working on data-driven analyses of small arms proliferation and armed violence."), class="hover-info"),
+  card_footer(
+    markdown("<a href='https://www.smallarmssurvey.org/who_we_are/our_team/gianluca-boo' target='_blank'>More about Gianluca</a>"), class="more-info"),
+  class="hover-card"
+  ),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Victór de Oliveira"), class = "bg-light"),
+  card_image(file ="images/profiles/06_victor.jpeg", 
+             alt = "Victor de Oliveira", 
+             class="profile"),
+  card_body(markdown("Victór de Oliveira is a PhD candidate in International Law at the Graduate Institute of International and Development Studies in Geneva, he holds a summa cum laude LL.M. from the same institution, with a specialization in International Economic Law."), class="hover-info"),
+   card_footer(
+    markdown("<a href='https://www.graduateinstitute.ch/discover-institute/victor-santos-mariottini-de-oliveira' target='_blank'>More about Victór</a>"), class="more-info"),
+  class="hover-card"
+  ),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Pedro Maia"), class = "bg-light"),
+  card_image(file ="images/profiles/07_pedro.jpg", 
+             alt = "Pedro dos Santos Maia", 
+             class="profile"),
+  card_body(markdown("Pedro Maia is a PhD student at the Department of International Relations/Political Science at the Graduate Institute and a Research Assistant at the SNSF BSJR project 'Infrastructuring Democracy: the regulatory politics of digital code, content and circulation'. He holds BA and MA degrees in International Relations from the Pontifical Catholic University of Rio de Janeiro (PUC-Rio). Before joining the Graduate Institute, he worked as a security researcher in Think Tanks and policy-oriented organizations. His current research interests are: critical security studies, technology, GIS interfaces, the SDG's and data-driven policies."), class="hover-info"),
+  card_footer(
+    markdown("<a href='https://www.graduateinstitute.ch/discover-institute/pedro-dos-santos-maia' target='_blank'>More about Pedro</a>"), class="more-info"),
+  class="hover-card"
+  ),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Bruno Langeani"), class = "bg-light"),
+  card_image(file ="images/profiles/08_bruno.jpg", 
+             alt = "Bruno Langeani", 
+             class="profile"),
+  card_body(markdown("Bruno Langeani advises Instituto Sou da Paz’s research projects related to regulation and the illicit market of weapons and ammunition, drug policy and police and criminal justice reform. He worked closely with the São Paulo Military Police Commander to improve stop-and-frisk procedures and crowd management. He has done several projects related with profiling of firearms and ammunition, lifecycle and diversion of weapons and its impact on armed violence. He also conducted an evaluation of the Global Firearms Programme for UNODC."), class="hover-info"),
+  card_footer(
+    markdown("<a href='https://www.forumarmstrade.org/langeani.html' target='_blank'>More about Bruno</a>"), class="more-info"),
+  class="hover-card"
+  ),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Natália Pollachi"), class = "bg-light"),
+  card_image(file ="images/profiles/09_natalia.jpg", 
+             alt = "Natália Pollachi", 
+             class="profile"),
+  card_body(markdown("Natália Pollachi is the Project Director of the Brazilian NGO Instituto Sou da Paz, where she has worked since 2013. Her work on small arms and ammunition focuses on their lifecycle, origin, and effects on human security, including research, public policy development, advocacy and pilot projects in collaboration with police institutions. She holds a master's degree in International Relations from Universidade de São Paulo (USP) and was listed twice as 'Forces of Change' by UNLIREC."), class="hover-info"),
+  card_footer(
+    markdown("<a href='https://www.forumarmstrade.org/natalia_pollachi.html' target='_blank'>More about Natália</a>"), class="more-info"),
+  class="hover-card"
+  ),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Jorge Restrepo"), class = "bg-light"),
+  card_image(file ="images/profiles/10_jorge.png", 
+             alt = "Jorge Restrepo", 
+             class="profile"),
+  card_body(markdown("Jorge Restrepo is the Director of Centro de Recursos para el Análisis de Conflictos (CERAC), an independent research center focused on armed conflict, its socio-economic impacts, and violence in Colombia . He holds a PhD and MSc in Economics from Royal Holloway, University of London, along with postgraduate diplomas in higher education teaching, and further graduate studies at Cambridge University. He is also an Associate Professor of Economics at the Pontificia Universidad Javeriana in Bogotá."), class="hover-info"),
+card_footer(
+    markdown("<a href='https://www.cerac.org.co/equipo/investigadores/jorge.restrepo.html' target='_blank'>More about Jorge</a>"), class="more-info"),
+  class="hover-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Magda Coss"), class = "bg-light"),
+  card_image(file ="images/profiles/11_magda.jpeg", 
+             alt = "Magda Coss", 
+             class="profile"),
+  card_body(markdown("Magda Cross is a passionate gun control advocate and the Director of Inspiring Girls, Mexico, an organization that seeks to empower girls and young people through conferences and workshops. Founder of the civil society Mexico 24-0, a 24 hours without violence, focused on the prevention of violence and peacebuilding. Author of a book published by Penguin Random House."), class="hover-info"),
+card_footer(
+    markdown("<a href='https://issuu.com/humanrightsdefender/docs/unswa017_human_rights_defender_publication_vol30_i/s/13112790' target='_blank'>More about Magda</a>"), class="more-info"),
+  class="hover-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Luisa Lobato"), class = "bg-light"),
+  card_image(file ="images/profiles/12_luisa.jpg", 
+             alt = "Luisa Lobato", 
+             class="profile"),
+  card_body(markdown("Luisa Lobato holds a degree in International Relations from the University of the Amazon, a master's degree in International Relations from the Pontifical Catholic University of Rio de Janeiro and a PhD in International Relations from the Pontifical Catholic University of Rio de Janeiro. She is currently a professor at the Pontifical Catholic University of Rio de Janeiro and coordinator of the Digital Humanities Laboratory at PUC-Rio. She has experience in the areas of International Security and Science and Technology Studies, working mainly on the following topics: Critical Security Studies, Cybersecurity, Algorithmic Governance, Applications, Digital Humanities, Technology Policy."), class="hover-info"),
+card_footer(
+    markdown("<a href='https://www.iri.puc-rio.br/equipe/luisa-cruz-lobato/' target='_blank'>More about Luisa</a>"), class="more-info"),
+  class="hover-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Victória Santos"), class = "bg-light"),
+  card_image(file ="images/profiles/13_victoria.jpg", 
+             alt = "Victória Santos", 
+             class="profile"),
+  card_body(markdown("Victória M. S. Santos holds a PhD (2021) and a master's degree (2017) from the Institute of International Relations at PUC-Rio (IRI/PUC-Rio), and a bachelor's degree in International Relations from the University of Brasília (2014). She is a postdoctoral researcher at the Global South Unit for Mediation (GSUM), an initiative of the BRICS Policy Center at IRI/PUC-Rio, and at the Center for Democracy and the Armed Forces (NEDEFA), an interdepartmental center at PUC-Rio. She is a professor and assistant coordinator of undergraduate studies at IRI/PUC-Rio."), class="hover-info"),
+  card_footer(
+    markdown("<a href='https://www.iri.puc-rio.br/equipe/victoria-santos/' target='_blank'>More about Victória</a>"), class="more-info"),
+  class="hover-card"),
+)
+```
+
+![](images/ChatGPT%20Image%20Jun%206,%202025,%2003_51_19%20PM.png){.img-background}
