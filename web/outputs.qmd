@@ -2,4 +2,4 @@
 title: "Outputs"
 ---
 
-![](images/ChatGPT Image Jun 6, 2025, 03_51_19 PM.png){.img-background}
+![](images/ChatGPT%20Image%20Jun%206,%202025,%2003_51_19%20PM.png){.img-background}

@@ -1,38 +1,25 @@
 ---
-title: " "
+title: "Mapping the Transnational Circulation and Control of Small Arms in Latin America"
 ---
 
-# Mapping the Transnational Circulation and Control of Small Arms in Latin America
+# 
 
 ::: {#project}
 We are an international consortium analyzing the circulation of military-style firearms in Latin America, the adoption and implementation of national and multilateral control norms and the effects of such weapons in the region’s gun culture. Through our mixed-methods research, we aim to identify the main challenges and opportunities for international cooperation in the prevention of illegal flow and misuse of small arms that hinder human-centred development.
 :::
 
 ::: {#institutions}
-<a href="https://www.graduateinstitute.ch/ccdp" target="_blank">
-![](images/institutions/01_graduate_institute.png){.institution fig-alt="Geneva Graduate Institute"}
-</a>
+<a href="https://www.graduateinstitute.ch/ccdp" target="_blank"> ![](images/institutions/01_graduate_institute.png){.institution fig-alt="Geneva Graduate Institute"} </a>
 
-<a href="https://www.smallarmssurvey.org/" target="_blank">
-![](images/institutions/02_sas.png){.institution fig-alt="Small Arms Survey"}
-</a>
+<a href="https://www.smallarmssurvey.org/" target="_blank"> ![](images/institutions/02_sas.png){.institution fig-alt="Small Arms Survey"} </a>
 
-<a href="https://www.iri.puc-rio.br/en/home-eng/" target="_blank">
-![](images/institutions/03_puc_iri.png){.institution fig-alt="Pontifical Catholic University of Rio de Janeiro (PUC-Rio)"}
-</a>
+<a href="https://www.iri.puc-rio.br/en/home-eng/" target="_blank"> ![](images/institutions/03_puc_iri.png){.institution fig-alt="Pontifical Catholic University of Rio de Janeiro (PUC-Rio)"} </a>
 
-<a href="https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br" target="_blank">
-![](images/institutions/04_puc_hd.png){.institution fig-alt=""}
-</a>
+<a href="https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br" target="_blank"> ![](images/institutions/04_puc_hd.png){.institution fig-alt=""} </a>
 
-<a href="https://www.cerac.org.co/es" target="_blank">
-![](images/institutions/05_cerac.png){.institution fig-alt="Centro de Recursos para el Análisis de Conflictos (CERAC)"}
-</a>
+<a href="https://www.cerac.org.co/es" target="_blank"> ![](images/institutions/05_cerac.png){.institution fig-alt="Centro de Recursos para el Análisis de Conflictos (CERAC)"} </a>
 
-<a href="https://www.oas.org/en/" target="_blank">
-  ![](images/institutions/06_oas.png){.institution fig-alt="Organization of American States (OAS)"}
-</a>
-
+<a href="https://www.oas.org/en/" target="_blank"> ![](images/institutions/06_oas.png){.institution fig-alt="Organization of American States (OAS)"} </a>
 :::
 
 ![](images/ChatGPT%20Image%20Jun%206,%202025,%2003_51_19%20PM.png){.img-background}
