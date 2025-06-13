@@ -1,0 +1,132 @@
+#project {
+  padding-top: 20px;
+}
+
+#institutions {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px; /* Adjust to your desired height */
+  background-color: white; /* Optional: to make it stand out */
+  display: flex;
+  justify-content: space-around; /* Equally space images */
+  align-items: center; /* Center vertically */
+  z-index: 1000;
+}
+
+.institution-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px !important;
+  margin: 0px !important;
+  border: none;
+  background: none;
+  border-color: transparent;
+}
+
+.institution-card .card-body {
+  padding: 0px !important;
+}
+
+.institution-card img {
+  max-width: 100%;
+  max-height: 90%;
+  object-fit: contain;
+  padding-top: 0px;
+  padding-bottom:0px;
+}
+
+.institution {
+  max-height: 80%; /* Ensure images fit the div height */
+  max-width: 120px; /* Optional: cap width for consistency */
+  padding-left: 7px;
+  padding-right: 7px;
+  object-fit: contain;
+}
+
+.card-header{
+ border-bottom: none !important;
+}
+.hover-card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;       /* you can adjust this */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.profile {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: grayscale(100%);
+  display: block;
+}
+
+.hover-card .hover-info {
+  display: none !important;
+}
+
+.hover-card .more-info {
+   display: none !important;
+}
+.hover-card[data-full-screen="true"] .hover-info {
+  display: block !important;
+  flex-direction: column;
+  height: 100%;
+}
+
+.hover-card[data-full-screen="true"] .more-info {
+  display: block !important;
+  background: white;
+  border-top:none;
+}
+
+.more-info a{
+  color: black !important;
+  font-weight: bold;
+  font-size: 80%;
+}
+    
+.img-background {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  filter: grayscale(100%);
+  z-index: -1;
+}
+
+.nav-link.active {
+  color: #343a40 !important;
+  font-weight: bold;
+}
+
+a:hover{
+  color: #343a40 !important;
+}
+a{
+  color: #343a40 !important;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: calc(3rem + 0.9vw);
+}
+
+h2 {
+  border-bottom: none;
+  padding-bottom) 0rem;
+}
