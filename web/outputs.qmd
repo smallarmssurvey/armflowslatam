@@ -2,4 +2,34 @@
 title: "Outputs"
 ---
 
+```{r}
+#| warn: false
+#| message: false
+#| echo: false
+
+suppressPackageStartupMessages({
+  library(bslib)
+  library(shiny)
+  library(htmltools)
+})
+
+layout_column_wrap( width = 1/4,
+card(
+  full_screen = TRUE,
+  card_header("The anatomy of a rifle - circulation and control in Latin America", class = "bg-light"),
+  card_body(
+      tags$iframe(
+        width = "100%",
+        height = "100%",
+        src = "https://www.youtube.com/embed/dQw4w9WgXcQ",  # Replace with your video ID
+        title = "YouTube video player",
+        frameborder = "0",
+        allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+        allowfullscreen = NA
+      )),
+  class="output-card")
+)
+```
+
+
 ![](images/ChatGPT%20Image%20Jun%206,%202025,%2003_51_19%20PM.png){.img-background}
