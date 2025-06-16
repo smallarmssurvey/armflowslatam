@@ -18,7 +18,7 @@
     "href": "data.html",
     "title": "Data",
     "section": "",
-    "text": "Data sources\nTo tackle these challenges, our project will develop a comprehensive mapping of the transnational circulation and control of military-style firearms in Latin America. Our research focuses on data from the following sources: Reporting in the framework of international treaties, such as the Arms Trade Treaty, the UN Programme of Action on SALW and the CIFTA convention, and national legislation regulating legal flows, transfers and possession of such weapons. Also, official data-sharing mechanisms when they exist. International sources on small arms (UN Comtrade, UNROCA, UNODC, and others) to identify both legal and illegal firearms flows. National datasets from official reports, customs data aggregators, security assistance reports, and court documentation. Social media data to understand firearm-related discourses, trends, and online marketplaces, employing ethnographic research to examine the digital sociability of arms-related groups.\nFrom all these sources, the project will develop interactive online data visualizations to track and display trends in firearms circulation. This will be supplemented by detailed reports, case studies, and policy recommendations, ensuring accessibility for researchers, policymakers, and the public."
+    "text": "Our project develops a comprehensive mapping of the transnational circulation and control of military-style firearms in Latin America. Our research focuses on data from the following sources:"
   },
   {
     "objectID": "partners.html",
@@ -103,5 +103,33 @@
     "title": "About",
     "section": "Our Focus: Military-Style Firearms",
     "text": "Our Focus: Military-Style Firearms\nThis project specifically examines the circulation of military-style firearms. These weapons, once limited to state security forces, are increasingly found in the hands of non-state actors, including criminal organizations and private security companies. The blurred lines between legal trade and illicit trafficking—such as firearms purchased legally in the U.S. and later trafficked to Mexican criminal groups—further complicate control efforts.\nMoreover, these weapons shape patterns of violence and territorial control across the region. Their restrictive regulations make diversion from security forces to private owners an important factor in their proliferation. Beyond their material impact, these weapons also hold significant cultural meaning, appearing in music, movies, and popular narratives as symbols of power and masculinity."
+  },
+  {
+    "objectID": "about.html#the-challenge-firearms-and-violence-in-latin-america",
+    "href": "about.html#the-challenge-firearms-and-violence-in-latin-america",
+    "title": "About",
+    "section": "The Challenge: Firearms and Violence in Latin America",
+    "text": "The Challenge: Firearms and Violence in Latin America\nLatin America is one of the most violent regions in the world, with firearms playing a central role. In 2021, 45% of violent deaths worldwide were committed with firearms—this percentage reached 71% in South America and 68% in Central America. The circulation of small arms and light weapons fuels organized crime, sustains armed militias, and undermines both public safety and democratic processes.\nHowever, despite their significant impact, there is limited assessment of how these weapons circulate across the region. Understanding their transnational trade routes, trafficking patterns, and the social mechanisms that reinforce their use is crucial to addressing the problem."
+  },
+  {
+    "objectID": "data.html#social-media",
+    "href": "data.html#social-media",
+    "title": "Data",
+    "section": "Social media",
+    "text": "Social media\nSocial media data to understand firearm-related discourses, trends, and online marketplaces, employing ethnographic research to examine the digital sociability of arms-related groups.\n\nFrom all these sources, the project will develop interactive online data visualizations to track and display trends in firearms circulation. This will be supplemented by detailed reports, case studies, and policy recommendations, ensuring accessibility for researchers, policymakers, and the public."
+  },
+  {
+    "objectID": "data.html#international-treaties",
+    "href": "data.html#international-treaties",
+    "title": "Data",
+    "section": "International treaties",
+    "text": "International treaties\nReporting in the framework of international treaties, such as the Arms Trade Treaty (ATT), the UN Programme of Action on SALW and the Inter-American Convention against the Illicit Manufacturing of and Trafficking in Firearms, Ammunition, Explosives, and Other Related Materials (CIFTA) convention, and national legislation regulating legal flows, transfers and possession of such weapons. Also, official data-sharing mechanisms when they exist.\n\n&lt;iframe src='https://flo.uri.sh/story/3140194/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;;background:background-color:rgba(0, 0, 0, 0.5);' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'&gt;"
+  },
+  {
+    "objectID": "data.html#international-sources",
+    "href": "data.html#international-sources",
+    "title": "Data",
+    "section": "International sources",
+    "text": "International sources\nInternational sources on small arms, such as UN Comtrade, United Nations Register of Conventional Arms (UNROCA), United Nations Office on Drugs and Crime (UNODC), and others to identify both legal and illegal firearms flows. National datasets from official reports, customs data aggregators, security assistance reports, and court documentation."
   }
 ]

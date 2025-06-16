@@ -26,9 +26,9 @@ Finally, the project maps the control norms that regulate the transnational circ
 
 Through mixed-method pluridisciplinary research, the project aims to shed light on the significance of small arms in the persistence of violence in Latin America, as well as the possibilities of cooperation to reduce their damage.
 
-## **Understanding Firearms Circulation and Control in Latin America**
+# **Understanding Firearms Circulation and Control in Latin America**
 
-The Challenge: Firearms and Violence in Latin America
+## The Challenge: Firearms and Violence in Latin America
 
 Latin America is one of the most violent regions in the world, with firearms playing a central role. [In 2021](https://www.smallarmssurvey.org/sites/default/files/SAS-IG-2024-Gender-GVD-EN.pdf), 45% of violent deaths worldwide were committed with firearms—this [percentage reached](https://www.smallarmssurvey.org/sites/default/files/resources/SAS-GVD-2023-update-FINAL_EN.pdf) 71% in South America and 68% in Central America. The circulation of small arms and light weapons fuels organized crime, sustains armed militias, and undermines both public safety and democratic processes.
 

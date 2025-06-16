@@ -4,7 +4,26 @@ title: "Data"
 
 Our project develops a comprehensive mapping of the transnational circulation and control of military-style firearms in Latin America. Our research focuses on data from the following sources:
 
-Reporting in the framework of international treaties, such as the Arms Trade Treaty, the UN Programme of Action on SALW and the CIFTA convention, and national legislation regulating legal flows, transfers and possession of such weapons. Also, official data-sharing mechanisms when they exist. International sources on small arms (UN Comtrade, UNROCA, UNODC, and others) to identify both legal and illegal firearms flows. National datasets from official reports, customs data aggregators, security assistance reports, and court documentation. Social media data to understand firearm-related discourses, trends, and online marketplaces, employing ethnographic research to examine the digital sociability of arms-related groups.
+## International treaties
+
+Reporting in the framework of international treaties, such as the [**Arms Trade Treaty**](https://thearmstradetreaty.org/) (ATT), the [**UN Programme of Action on SALW**](https://disarmament.unoda.org/convarms/salw/programme-of-action/) and the [**Inter-American Convention against the Illicit Manufacturing of and Trafficking in Firearms, Ammunition, Explosives, and Other Related Materials**](https://www.oas.org/ext/en/security/cifta) (CIFTA) convention, and national legislation regulating legal flows, transfers and possession of such weapons. Also, official data-sharing mechanisms when they exist.
+
+<iframe src="https://flo.uri.sh/story/3140194/embed" title="Interactive or visual content" class="flourish-embed-iframe" frameborder="0" scrolling="no" style="width:100%;height:600px;" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation">
+
+```{=html}
+<iframe src='https://flo.uri.sh/story/3140194/embed' title='Interactive or visual content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:600px;;background:background-color:rgba(0, 0, 0, 0.5);' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+```
+## International sources
+
+International sources on small arms, such as [**UN Comtrade**](https://comtradeplus.un.org/), [**United Nations Register of Conventional Arms**](https://www.unroca.org/) (UNROCA), [**United Nations Office on Drugs and Crime**](https://www.unodc.org/) (UNODC), and others to identify both legal and illegal firearms flows. National datasets from official reports, customs data aggregators, security assistance reports, and court documentation.
+
+## Social media 
+
+Social media data to understand firearm-related discourses, trends, and online marketplaces, employing ethnographic research to examine the digital sociability of arms-related groups.
+
+```{=html}
+<iframe src='https://flo.uri.sh/visualisation/23229453/embed' title='Instagram content' class='flourish-embed-iframe' frameborder='0' scrolling='no' style='width:100%;height:43vh;background:background-color:rgba(0, 0, 0, 0.5);' sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'></iframe>
+```
 
 From all these sources, the project will develop interactive online data visualizations to track and display trends in firearms circulation. This will be supplemented by detailed reports, case studies, and policy recommendations, ensuring accessibility for researchers, policymakers, and the public.
 

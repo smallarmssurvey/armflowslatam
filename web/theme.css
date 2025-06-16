@@ -7,12 +7,13 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 120px; /* Adjust to your desired height */
-  background-color: white; /* Optional: to make it stand out */
+  background-color: #f8f9fa;
   display: flex;
-  justify-content: space-around; /* Equally space images */
-  align-items: center; /* Center vertically */
+  justify-content: space-around;
+  align-items: center;
   z-index: 1000;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .institution-card {
@@ -107,7 +108,7 @@
 }
 
 .more-info a{
-  color: black !important;
+  color: #343a40 !important;
   font-weight: bold;
   font-size: 80%;
 }
@@ -158,3 +159,7 @@ span.navbar-title {
     display: none;
 }
 
+.bg-light {
+    color: #343a40 !important;
+    background: white !important;
+}
