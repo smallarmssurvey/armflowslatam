@@ -12,6 +12,7 @@
   justify-content: space-around;
   align-items: center;
   z-index: 1000;
+  padding-top:10px;
   padding-left: 5vw;
   padding-right: 5vw;
 }
