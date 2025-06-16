@@ -17,7 +17,7 @@ We are an international consortium analyzing the circulation of military-style f
 
 <a href="https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br" target="_blank"> ![](images/institutions/04_puc_hd.png){.institution fig-alt=""} </a>
 
-<a href="https://soudapaz.org/" target="_blank"> ![](images/Institutions/04_sou_paz.png){.institution fig-alt="Instituto Sou da Paz" style='max-height:3.5rem'} </a>
+<a href="https://soudapaz.org/" target="_blank"> ![](images/institutions/04_sou_paz.png){.institution fig-alt="Instituto Sou da Paz" style='max-height:3.5rem'} </a>
 
 <a href="https://www.cerac.org.co/es" target="_blank"> ![](images/institutions/05_cerac.png){.institution fig-alt="Centro de Recursos para el Análisis de Conflictos (CERAC)"} </a>
 
