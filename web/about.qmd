@@ -26,7 +26,7 @@ Finally, the project maps the control norms that regulate the transnational circ
 
 Through mixed-method pluridisciplinary research, the project aims to shed light on the significance of small arms in the persistence of violence in Latin America, as well as the possibilities of cooperation to reduce their damage.
 
-**Understanding Firearms Circulation and Control in Latin America**
+## **Understanding Firearms Circulation and Control in Latin America**
 
 The Challenge: Firearms and Violence in Latin America
 
@@ -34,7 +34,7 @@ Latin America is one of the most violent regions in the world, with firearms pla
 
 However, despite their significant impact, there is limited assessment of how these weapons circulate across the region. Understanding their transnational trade routes, trafficking patterns, and the social mechanisms that reinforce their use is crucial to addressing the problem.
 
-**Our Focus: Military-Style Firearms**
+## **Our Focus: Military-Style Firearms**
 
 This project specifically examines the circulation of military-style firearms. These weapons, once limited to state security forces, are increasingly found in the hands of non-state actors, including criminal organizations and private security companies. The blurred lines between legal trade and illicit trafficking—such as firearms purchased legally in the U.S. and later trafficked to Mexican criminal groups—further complicate control efforts.
 
