@@ -31,9 +31,10 @@
 }
 
 .institution-card img {
-  max-width: 100%;
-  max-height: 90%;
-  object-fit: contain;
+  height: 5rem !important;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
   padding-top: 0px;
   padding-bottom:0px;
 }
@@ -49,6 +50,7 @@
 .card-header{
  border-bottom: none !important;
 }
+.output-card,
 .hover-card {
   position: relative;
   width: 100%;
@@ -70,20 +72,35 @@
   display: block;
 }
 
-.hover-card .hover-info {
+.output {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.hover-card .hover-info, 
+.output-card .hover-info {
   display: none !important;
 }
 
-.hover-card .more-info {
+.hover-card .more-info,
+.output-card .more-info {
    display: none !important;
 }
-.hover-card[data-full-screen="true"] .hover-info {
+
+.hover-card[data-full-screen="true"] .hover-info,
+.output-card[data-full-screen="true"] .hover-info {
   display: block !important;
   flex-direction: column;
   height: 100%;
 }
 
-.hover-card[data-full-screen="true"] .more-info {
+.hover-card[data-full-screen="true"] .more-info,
+.output-card[data-full-screen="true"] .more-info {
   display: block !important;
   background: white;
   border-top:none;
@@ -128,9 +145,16 @@ h1 {
 
 h2 {
   border-bottom: none;
-  padding-bottom) 0rem;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+}
+
+.institution-grid {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 span.navbar-title {
     display: none;
 }
+

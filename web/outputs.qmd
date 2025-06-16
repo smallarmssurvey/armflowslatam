@@ -2,6 +2,9 @@
 title: "Outputs"
 ---
 
+Our work investigates the adoption and implementation of international, regional, and national norms
+on small arms and light weapons in Latin America, evaluating their policy impacts.
+
 ```{r}
 #| warn: false
 #| message: false
@@ -13,23 +16,53 @@ suppressPackageStartupMessages({
   library(htmltools)
 })
 
-layout_column_wrap( width = 1/4,
+layout_column_wrap( width = 1/3,
 card(
   full_screen = TRUE,
-  card_header("The anatomy of a rifle - circulation and control in Latin America", class = "bg-light"),
+  card_header(tags$b("The anatomy of a rifle - circulation and control in Latin America"), class = "bg-light"),
   card_body(
       tags$iframe(
         width = "100%",
         height = "100%",
-        src = "https://www.youtube.com/embed/dQw4w9WgXcQ",  # Replace with your video ID
+        src = "https://www.youtube.com/embed/cDKcNSlAifY?si=5W2Et9dxUrZodDUB",
         title = "YouTube video player",
         frameborder = "0",
         allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
         allowfullscreen = NA
       )),
+  card_footer(
+    markdown("<a href='https://www.smallarmssurvey.org/sites/default/files/SAS-Factsheet-2025-Latin-America-project-EN.pdf' target='_blank'>More about the project</a>"), class="more-info"),
+  class="output-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Transnational Arms Flows in Latin America: Trends and Challenges"), class = "bg-light"),
+  card_body(markdown("How do small arms and light weapons flow across the borders of Latin America and its territories? On August 28th, 10:00h to 16:00h, IRI/PUC-Rio will bring together national and international experts to discuss contemporary trends and challenges linked to arms flows in Latin America.
+
+Discussions will include issues related to the circulation, control, and effects of rifles on broad social processes that allow the modulation and reproduction of violence. The two roundtables will discuss the current dynamics of the circulation of weapons and how these dynamics fuel and transform armed violence in the region, as well as existing challenges for data production and analysis on arms flows and their control.
+
+The seminar “Transnational Arms Flows in Latin America: Trends and Challenges” will be held on August 28th, 10:00h to 16:00h, in a hybrid format – at the IRI2 Auditorium (R. Marquês de São Vicente, 232 – Gávea) and via Zoom.
+
+The event is held by IRI/PUC-Rio in collaboration with the Centre on Conflict, Development & Peacebuilding (CCDP/IHEID) and the Small Arms Survey, with the support of FAPERJ and the Swiss Network for International Studies (SNIS)."), class="hover-info"),
+card_image(file="https://www.iri.puc-rio.br/wp-content/uploads/2023/08/evento-armas-eng.png",
+           class="output"),
+card_footer(
+    markdown("<a href='https://www.iri.puc-rio.br/en/evento/transnational-arms-flows-in-latin-america-trends-and-challenges/' target='_blank'>More about the event</a>"), 
+    class="more-info"),
+  class="output-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$b("Dialogue “Arms Circulation and Control in Latin America”"), class = "bg-light"),
+    card_body(markdown("Small arms play a central role in the patterns of political and criminal violence observed in Latin America and the rest of the world. Among the various types of firearms used in the region, rifles are a case study for examining the emergence of violent dynamics and identifying effective entry points for policy responses and international cooperation initiatives.
+
+In celebration of its 10th anniversary, the Global South Unit for Mediation (GSUM) announces that registration is now open for the dialogue “Arms Circulation and Control in Latin America”, which will take place on Thursday, December 5, from 4pm to 6pm. The event will take place in person at the Digital Humanities Laboratory, Estrada da Gávea 50, Sala 302 Gávea/RJ.
+
+The dialog will feature the participation of IRI/PUC-Rio professors Monica Herz, Luísa Cruz Lobato and Victória Santos, who will present the work of the project “Mapping the Transnational Circulation and Control of Small Arms in Latin America”, carried out with the support of the Swiss Network for International Studies (SNIS)."), class="hover-info"),
+card_image(file="https://www.iri.puc-rio.br/wp-content/uploads/2024/12/GSUM-ciclo-Armas.jpg",
+           class="output"),
+card_footer(
+    markdown("<a href='https://www.iri.puc-rio.br/en/evento/dialogue-arms-circulation-and-control-in-latin-america/' target='_blank'>More about the event</a>"), class="more-info"),
   class="output-card")
 )
 ```
-
 
 ![](images/ChatGPT%20Image%20Jun%206,%202025,%2003_51_19%20PM.png){.img-background}
