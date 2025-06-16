@@ -6,7 +6,7 @@ Our project is a multidisciplinary effort bringing together members from institu
 
 ## Principal members
 
-The principal members are part of the Geneva Graduate Institute [**Centre on Conflict, Development and Peacebuilding**](https://www.graduateinstitute.ch/ccdp){target="_blank"} (CCDP), the [**Small Arms Survey**](https://www.smallarmssurvey.org/){target="_blank"}, and the [**Pontifical Catholic University of Rio de Janeiro**](https://www.puc-rio.br/english/){target="_blank"} (PUC-Rio) [**Digital Humanities Lab**](https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br/en/home-english/about-puc-rios-digital-humanities-lab-dhlab/){target="_blank"} (DHLab).
+The principal members are part of the Geneva Graduate Institute [**Centre on Conflict, Development and Peacebuilding**](https://www.graduateinstitute.ch/ccdp){target="_blank"} (CCDP), the [**Small Arms Survey**](https://www.smallarmssurvey.org/){target="_blank"}, and the [**Pontifical Catholic University of Rio de Janeiro**](https://www.puc-rio.br){target="_blank"} (PUC-Rio) [**Digital Humanities Lab**](https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br/en/home-english/about-puc-rios-digital-humanities-lab-dhlab/){target="_blank"} (DHLab).
 
 ```{r}
 #| warn: false
@@ -41,7 +41,7 @@ card(
 card(
   full_screen = F,
    tags$a(
-     href = "https://www.iri.puc-rio.br/en/home-eng/",
+     href = "https://www.iri.puc-rio.br",
      target = "_blank",
   card_image(file ="images/Institutions/03_puc_iri.png", 
              alt = "Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",
@@ -53,7 +53,7 @@ class="institution-grid"
 
 ## Associated members
 
-The project also cooperates with regional research institutions, including [**Instituto Sou da Paz**](https://soudapaz.org/){target="_blank"}, the [**State University of Rio de Janeiro**](https://www.uerj.br/){target="_blank"} (UERJ) [**Laboratório de Análise da Violência**](https://lav-uerj.org/en/institucional/){target="_blank"}, and the [**Conflict Analysis Resource Center**](https://iansa.org/member/the-conflict-analysis-resource-center-cerac/){target="_blank"} (CERAC), as well as with the [**Organization of American States**](https://www.oas.org/){target="_blank"} (OAS).
+The project also cooperates with regional research institutions, including [**Instituto Sou da Paz**](https://soudapaz.org){target="_blank"}, the [**State University of Rio de Janeiro**](https://www.uerj.br/){target="_blank"} (UERJ) [**Laboratório de Análise da Violência**](https://lav-uerj.org/en/institucional/){target="_blank"}, and the [**Conflict Analysis Resource Center**](https://www.cerac.org.co){target="_blank"} (CERAC), as well as with the [**Organization of American States**](https://www.oas.org){target="_blank"} (OAS).
 
 ```{r}
 #| warn: false
@@ -62,7 +62,7 @@ The project also cooperates with regional research institutions, including [**In
 layout_column_wrap( width = 1/3, gap="20px", fill=T,
 card(full_screen = F,
      tags$a(
-     href = "https://soudapaz.org/",
+     href = "https://soudapaz.org",
      target = "_blank",
   card_image(file ="images/Institutions/04_sou_paz.png", 
              alt = "Instituto Sou da Paz",
@@ -71,7 +71,7 @@ card(full_screen = F,
   class="institution-card"),
 card(full_screen = F,
   tags$a(
-     href = "https://www.cerac.org.co/es/",
+     href = "https://www.cerac.org.co",
      target = "_blank",
   card_image(file ="images/Institutions/05_cerac.png", 
              alt = "Centro de Recursos para el Análisis de Conflictos (CERAC)",
@@ -79,7 +79,7 @@ card(full_screen = F,
   class="institution-card"),
 card(full_screen = F,
   tags$a(
-     href = "https://www.oas.org/en/",
+     href = "https://www.oas.org",
      target = "_blank",
   card_image(file ="images/Institutions/06_oas.png", 
              alt = "Organization of American States (OAS)",
@@ -99,7 +99,7 @@ The project is funded by the [**Swiss Network for International Studies**](https
 layout_column_wrap( width = 1/3, fill=T,
 card(full_screen = F,
   tags$a(
-     # href = "https://snis.ch/",
+    href = "https://snis.ch/",
      target = "_blank",
   card_image(file ="images/Institutions/00_snis.png", 
              alt = "Swiss Network for International Studies (SNIS)"),

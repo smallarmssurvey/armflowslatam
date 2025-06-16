@@ -2,8 +2,6 @@
 title: "Mapping the Transnational Circulation and Control of Small Arms in Latin America"
 ---
 
-# 
-
 ::: {#project}
 We are an international consortium analyzing the circulation of military-style firearms in Latin America, the adoption and implementation of national and multilateral control norms and the effects of such weapons in the region’s gun culture. Through our mixed-methods research, we aim to identify the main challenges and opportunities for international cooperation in the prevention of illegal flow and misuse of small arms that hinder human-centred development.
 :::
@@ -19,7 +17,7 @@ We are an international consortium analyzing the circulation of military-style f
 
 <a href="https://soudapaz.org/" target="_blank"> ![](images/institutions/04_sou_paz.png){.institution fig-alt="Instituto Sou da Paz" style='max-height:3.5rem'} </a>
 
-<a href="https://www.cerac.org.co/es" target="_blank"> ![](images/institutions/05_cerac.png){.institution fig-alt="Centro de Recursos para el Análisis de Conflictos (CERAC)"} </a>
+<a href="https://www.cerac.org.co" target="_blank"> ![](images/institutions/05_cerac.png){.institution fig-alt="Centro de Recursos para el Análisis de Conflictos (CERAC)"} </a>
 
 <a href="https://www.oas.org/en/" target="_blank"> ![](images/institutions/06_oas.png){.institution fig-alt="Organization of American States (OAS)"} </a>
 :::
