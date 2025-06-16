@@ -6,7 +6,7 @@ Our project is a multidisciplinary effort bringing together members from institu
 
 ## Principal members
 
-The principal members are part of the Geneva Graduate Institute [**Centre on Conflict, Development & Peacebuilding**](https://www.graduateinstitute.ch/ccdp) (CCDP), the [**Small Arms Survey**](https://www.smallarmssurvey.org/), and the Pontifical Catholic University of Rio de Janeiro’s [**Digital Humanities Lab**](https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br/en/home-english/about-puc-rios-digital-humanities-lab-dhlab/) (DHLab).
+The principal members are part of the Geneva Graduate Institute [**Centre on Conflict, Development and Peacebuilding**](https://www.graduateinstitute.ch/ccdp){target="_blank"} (CCDP), the [**Small Arms Survey**](https://www.smallarmssurvey.org/){target="_blank"}, and the [**Pontifical Catholic University of Rio de Janeiro**](https://www.puc-rio.br/english/){target="_blank"} (PUC-Rio) [**Digital Humanities Lab**](https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br/en/home-english/about-puc-rios-digital-humanities-lab-dhlab/){target="_blank"} (DHLab).
 
 ```{r}
 #| warn: false
@@ -53,7 +53,7 @@ class="institution-grid"
 
 ## Associated members
 
-The project also cooperates with regional research institutions, including [**Instituto Sou da Paz**](https://soudapaz.org/), the [**Laboratório de Análise da Violência**](https://lav-uerj.org/en/institucional/) of the State University of Rio de Janeiro, and the [**The Conflict Analysis Resource Center**](https://iansa.org/member/the-conflict-analysis-resource-center-cerac/) (CERAC), as well as with the [**Organization of American States**](https://www.oas.org/) (OAS).
+The project also cooperates with regional research institutions, including [**Instituto Sou da Paz**](https://soudapaz.org/){target="_blank"}, the [**State University of Rio de Janeiro**](https://www.uerj.br/){target="_blank"} (UERJ) [**Laboratório de Análise da Violência**](https://lav-uerj.org/en/institucional/){target="_blank"}, and the [**Conflict Analysis Resource Center**](https://iansa.org/member/the-conflict-analysis-resource-center-cerac/){target="_blank"} (CERAC), as well as with the [**Organization of American States**](https://www.oas.org/){target="_blank"} (OAS).
 
 ```{r}
 #| warn: false
@@ -90,7 +90,7 @@ class="institution-grid"
 
 ## Funder
 
-The project is funded by the [**Swiss Network for International Studies**](https://snis.ch/projects/mapping-the-transnational-circulation-and-control-of-small-arms-in-latin-america/) (SNIS), a body promoting academic research in the interdisciplinary area of international studies with an interest in phenomena that transcend traditional nation-state boundaries.
+The project is funded by the [**Swiss Network for International Studies**](https://snis.ch/projects/mapping-the-transnational-circulation-and-control-of-small-arms-in-latin-america/){target="_blank"} (SNIS), a body promoting academic research in the interdisciplinary area of international studies with an interest in phenomena that transcend traditional nation-state boundaries.
 
 ```{r}
 #| warn: false

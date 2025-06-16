@@ -41,8 +41,8 @@
 }
 
 .institution {
-  max-height: 80%; /* Ensure images fit the div height */
-  max-width: 120px; /* Optional: cap width for consistency */
+  max-height: 80%;
+  max-width: 120px;
   padding-left: 7px;
   padding-right: 7px;
   object-fit: contain;
@@ -104,7 +104,8 @@
 .output-card[data-full-screen="true"] .more-info {
   display: block !important;
   background: white;
-  border-top:none;
+  border-top: none;
+  margin-bottom:0px !important;
 }
 
 .more-info a{
@@ -163,3 +164,43 @@ span.navbar-title {
     color: #343a40 !important;
     background: white !important;
 }
+
+.tab-pane[data-value='hiden']{
+  max-height: 0px !important;
+}
+
+.bslib-nav-spacer {
+    margin-right: 10px;
+}
+
+.data-card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.data-card[data-full-screen="true"] {
+   max-width: 90vw;
+   margin-left: 5vw;
+   margin-right: 5vw;
+}
+
+.data-card .viz {
+   display: none !important;
+}
+
+.data-card[data-full-screen="true"] .viz {
+  display: block !important;
+  flex-direction: column;
+  height: 100%;
+}
+
+.data-card[data-full-screen="true"] .text {
+   display: none !important;
+}
+
+
