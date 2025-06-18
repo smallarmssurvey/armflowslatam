@@ -22,6 +22,7 @@ format:
     css: theme.css
     toc: false
     anchor-sections: false
+    include-before-body: header.html
 
 editor: visual
 

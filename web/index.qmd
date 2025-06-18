@@ -15,11 +15,13 @@ We are an international consortium analyzing the circulation of military-style f
 
 <a href="https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br" target="_blank"> ![](images/institutions/04_puc_hd.png){.institution fig-alt=""} </a>
 
-<a href="https://soudapaz.org/" target="_blank"> ![](images/institutions/04_sou_paz.png){.institution fig-alt="Instituto Sou da Paz" style='max-height:3.5rem'} </a>
+<a href="https://soudapaz.org/" target="_blank"> ![](images/institutions/04_sou_paz.png){.institution fig-alt="Instituto Sou da Paz" style="max-height:3.5rem"} </a>
 
 <a href="https://www.cerac.org.co" target="_blank"> ![](images/institutions/05_cerac.png){.institution fig-alt="Centro de Recursos para el Análisis de Conflictos (CERAC)"} </a>
 
-<a href="https://www.oas.org/en/" target="_blank"> ![](images/institutions/06_oas.png){.institution fig-alt="Organization of American States (OAS)"} </a>
+<a href="https://inspiring-girls.mx/" target="_blank"> ![](images/institutions/07_inspiring_girls.png){.institution fig-alt="Inspiring Girls Mexico"} </a>
+
+<!-- <a href="https://www.oas.org/en/" target="_blank"> ![](images/institutions/06_oas.png){.institution fig-alt="Organization of American States (OAS)"} </a> -->
 :::
 
 ![](images/ChatGPT%20Image%20Jun%206,%202025,%2003_51_19%20PM.png){.img-background}
