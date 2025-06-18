@@ -2,8 +2,7 @@
 title: "Outputs"
 ---
 
-Our work investigates the adoption and implementation of international, regional, and national norms
-on small arms and light weapons in Latin America, evaluating their policy impacts.
+Our work investigates the adoption and implementation of international, regional, and national norms on small arms and light weapons in Latin America, evaluating their policy impacts.
 
 ```{r}
 #| warn: false
@@ -19,7 +18,72 @@ suppressPackageStartupMessages({
 layout_column_wrap( width = 1/3,
 card(
   full_screen = TRUE,
-  card_header(tags$b("The anatomy of a rifle - circulation and control in Latin America"), class = "bg-light"),
+  card_header(tags$div("Blogpost", class="output-type"), 
+              tags$b("Alarmed and Uninformed: The Increase in the Seizure
+of Rifles in Brazil"), 
+              class = "bg-light"),
+  card_body(
+    markdown("**By Bruno Langeani**<br/><br/>
+             Over the past decade, Brazil has seen a dramatic rise in the seizure of military‑style rifles—once a rarity outside Rio de Janeiro—across nearly every state, from Rio Grande do Norte and Bahia to São Paulo, where annual seizures quintupled between 2018 and 2024. These high‑powered weapons, which can fire accurately over a kilometer and penetrate body armor, have escalated the lethality of criminal-police confrontations and bolstered criminal groups’ territorial control. In addition to traditional smuggling routes and internal diversions—exacerbated by a 2019 regulation that allowed civilians to purchase up to 30 rifles under collector or sport‑shooter licenses—Brazil is now grappling with the proliferation of “ghost guns,” unmarked, home‑built firearms made with 3D printers or CNC machines and assembled from imported frames."), class="hover-info"),
+  card_image(file="https://fontesegura.forumseguranca.org.br/wp-content/uploads/sites/2/2023/12/fontesegura-testeira-generica-4.jpg", class="output"),
+  card_footer(
+    markdown("<a href='https://fontesegura.forumseguranca.org.br/alarmados-e-desinformados-o-aumento-da-apreensao-de-fuzis-no-brasil/' target='_blank'>More about the blogpost</a>"), 
+    class="more-info"),
+  class="output-card"),
+card(
+#  full_screen = TRUE,
+  card_header(tags$div("Article", class="output-type"), 
+              tags$b("The role of Military-style Firearms in Mexico"), 
+              class = "bg-light"),
+  card_body(
+    
+      ),
+  card_footer(
+    markdown("<a href='' target='_blank'>More about the article</a>"), 
+    class="more-info"),
+  class="output-card"),
+card(
+#  full_screen = TRUE,
+  card_header(tags$div("Article", class="output-type"), 
+              tags$b("The Authorized Trade in Small Arms: Latin America in Global Context"), 
+              class = "bg-light"),
+  card_body(
+      ),
+  card_footer(
+    markdown("<a href='' target='_blank'>More about the article</a>"), 
+    class="more-info"),
+  class="output-card"),
+card(
+  #full_screen = TRUE,
+  card_header(tags$div("Article", class="output-type"), 
+              tags$b("Blind Fire: The Rise of Military-Style Firearms amid Regulatory Failures and Data Deficiency in Brazil"), 
+              class = "bg-light"),
+  card_body(
+      ),
+  card_footer(
+    markdown("<a href='' target='_blank'>More about the article</a>"), 
+    class="more-info"),
+  class="output-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$div("Media", class="output-type"), 
+              tags$b("Mapping the Transnational Circulation and Control
+of Small Arms in Latin America"), class = "bg-light"),
+  card_body(
+      tags$iframe(
+        width = "100%",
+        height = "100%",
+        src = "images/outputs/SAS-Factsheet-2025-Latin-America-project-EN.pdf",
+        title = " This browser does not support PDFs. Please download thePDF to view it:<a href='https://www.smallarmssurvey.org/sites/default/files/SAS-Factsheet-2025-Latin-America-project-EN.pdf'>Download PDF</a>",
+        allowfullscreen = NA
+      )),
+  card_footer(
+    markdown("<a href='https://www.smallarmssurvey.org/sites/default/files/SAS-Factsheet-2025-Latin-America-project-EN.pdf' target='_blank'>More about the project</a>"), class="more-info"),
+  class="output-card"),
+card(
+  full_screen = TRUE,
+  card_header(tags$div("Media", class="output-type"), 
+              tags$b("The anatomy of a rifle - circulation and control in Latin America"), class = "bg-light"),
   card_body(
       tags$iframe(
         width = "100%",
@@ -31,17 +95,15 @@ card(
         allowfullscreen = NA
       )),
   card_footer(
-    markdown("<a href='https://www.smallarmssurvey.org/sites/default/files/SAS-Factsheet-2025-Latin-America-project-EN.pdf' target='_blank'>More about the project</a>"), class="more-info"),
+    markdown("<a href='https://snis.ch/projects/mapping-the-transnational-circulation-and-control-of-small-arms-in-latin-america/' target='_blank'>More about the project</a>"), class="more-info"),
   class="output-card"),
 card(
   full_screen = TRUE,
-  card_header(tags$b("Transnational Arms Flows in Latin America: Trends and Challenges"), class = "bg-light"),
-  card_body(markdown("How do small arms and light weapons flow across the borders of Latin America and its territories? On August 28th, 10:00h to 16:00h, IRI/PUC-Rio will bring together national and international experts to discuss contemporary trends and challenges linked to arms flows in Latin America.
-
-Discussions will include issues related to the circulation, control, and effects of rifles on broad social processes that allow the modulation and reproduction of violence. The two roundtables will discuss the current dynamics of the circulation of weapons and how these dynamics fuel and transform armed violence in the region, as well as existing challenges for data production and analysis on arms flows and their control.
-
-The seminar “Transnational Arms Flows in Latin America: Trends and Challenges” will be held on August 28th, 10:00h to 16:00h, in a hybrid format – at the IRI2 Auditorium (R. Marquês de São Vicente, 232 – Gávea) and via Zoom.
-
+  card_header(tags$div("Event", class="output-type"), 
+              tags$b("Transnational Arms Flows in Latin America: Trends and Challenges"), class = "bg-light"),
+  card_body(markdown("How do small arms and light weapons flow across the borders of Latin America and its territories? On August 28th, 10:00h to 16:00h, IRI/PUC-Rio will bring together national and international experts to discuss contemporary trends and challenges linked to arms flows in Latin America.<br/>
+Discussions will include issues related to the circulation, control, and effects of rifles on broad social processes that allow the modulation and reproduction of violence. The two roundtables will discuss the current dynamics of the circulation of weapons and how these dynamics fuel and transform armed violence in the region, as well as existing challenges for data production and analysis on arms flows and their control.<br/>
+The seminar “Transnational Arms Flows in Latin America: Trends and Challenges” will be held on August 28th, 10:00h to 16:00h, in a hybrid format – at the IRI2 Auditorium (R. Marquês de São Vicente, 232 – Gávea) and via Zoom.<br/>
 The event is held by IRI/PUC-Rio in collaboration with the Centre on Conflict, Development & Peacebuilding (CCDP/IHEID) and the Small Arms Survey, with the support of FAPERJ and the Swiss Network for International Studies (SNIS)."), class="hover-info"),
 card_image(file="https://www.iri.puc-rio.br/wp-content/uploads/2023/08/evento-armas-eng.png",
            class="output"),
@@ -51,11 +113,10 @@ card_footer(
   class="output-card"),
 card(
   full_screen = TRUE,
-  card_header(tags$b("Dialogue “Arms Circulation and Control in Latin America”"), class = "bg-light"),
-    card_body(markdown("Small arms play a central role in the patterns of political and criminal violence observed in Latin America and the rest of the world. Among the various types of firearms used in the region, rifles are a case study for examining the emergence of violent dynamics and identifying effective entry points for policy responses and international cooperation initiatives.
-
-In celebration of its 10th anniversary, the Global South Unit for Mediation (GSUM) announces that registration is now open for the dialogue “Arms Circulation and Control in Latin America”, which will take place on Thursday, December 5, from 4pm to 6pm. The event will take place in person at the Digital Humanities Laboratory, Estrada da Gávea 50, Sala 302 Gávea/RJ.
-
+  card_header(tags$div("Event", class="output-type"), 
+              tags$b("Dialogue “Arms Circulation and Control in Latin America”"), class = "bg-light"),
+    card_body(markdown("Small arms play a central role in the patterns of political and criminal violence observed in Latin America and the rest of the world. Among the various types of firearms used in the region, rifles are a case study for examining the emergence of violent dynamics and identifying effective entry points for policy responses and international cooperation initiatives.<br/>
+In celebration of its 10th anniversary, the Global South Unit for Mediation (GSUM) announces that registration is now open for the dialogue “Arms Circulation and Control in Latin America”, which will take place on Thursday, December 5, from 4pm to 6pm. The event will take place in person at the Digital Humanities Laboratory, Estrada da Gávea 50, Sala 302 Gávea/RJ.<br/>
 The dialog will feature the participation of IRI/PUC-Rio professors Monica Herz, Luísa Cruz Lobato and Victória Santos, who will present the work of the project “Mapping the Transnational Circulation and Control of Small Arms in Latin America”, carried out with the support of the Swiss Network for International Studies (SNIS)."), class="hover-info"),
 card_image(file="https://www.iri.puc-rio.br/wp-content/uploads/2024/12/GSUM-ciclo-Armas.jpg",
            class="output"),

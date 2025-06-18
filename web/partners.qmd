@@ -53,7 +53,7 @@ class="institution-grid"
 
 ## Associated members
 
-The project also cooperates with regional research institutions, including [**Instituto Sou da Paz**](https://soudapaz.org){target="_blank"}, the [**State University of Rio de Janeiro**](https://www.uerj.br/){target="_blank"} (UERJ) [**Laboratório de Análise da Violência**](https://lav-uerj.org/en/institucional/){target="_blank"}, and the [**Conflict Analysis Resource Center**](https://www.cerac.org.co){target="_blank"} (CERAC), as well as with the [**Organization of American States**](https://www.oas.org){target="_blank"} (OAS).
+The project also cooperates with regional research institutions, including [**Instituto Sou da Paz**](https://soudapaz.org){target="_blank"}, the [**State University of Rio de Janeiro**](https://www.uerj.br/){target="_blank"} (UERJ) [**Laboratório de Análise da Violência**](https://lav-uerj.org/en/institucional/){target="_blank"}, [**Inspiring Girls Mexico**](https://inspiring-girls.mx/){target="_blank"}, and the [**Conflict Analysis Resource Center**](https://www.cerac.org.co){target="_blank"} (CERAC), as well as with the [**Organization of American States**](https://www.oas.org){target="_blank"} (OAS).
 
 ```{r}
 #| warn: false
@@ -77,25 +77,34 @@ card(full_screen = F,
              alt = "Centro de Recursos para el Análisis de Conflictos (CERAC)",
              class="institution-image")),
   class="institution-card"),
+# card(full_screen = F,
+#   tags$a(
+#      href = "https://www.oas.org",
+#      target = "_blank",
+#   card_image(file ="images/Institutions/06_oas.png", 
+#              alt = "Organization of American States (OAS)",
+#              class="institution-image")),  class="institution-card"),
 card(full_screen = F,
   tags$a(
-     href = "https://www.oas.org",
+     href = "https://inspiring-girls.mx/",
      target = "_blank",
-  card_image(file ="images/Institutions/06_oas.png", 
-             alt = "Organization of American States (OAS)",
-             class="institution-image")),  class="institution-card"),
+  card_image(file ="images/Institutions/07_inspiring_girls.png", 
+             alt = "Inspiring Girls Mexico",
+             width="100%"
+             #class="institution-image"
+             )),  class="institution-card"),
 class="institution-grid"
 )
 ```
 
-## Funder
-
+</br></br>
 The project is funded by the [**Swiss Network for International Studies**](https://snis.ch/projects/mapping-the-transnational-circulation-and-control-of-small-arms-in-latin-america/){target="_blank"} (SNIS), a body promoting academic research in the interdisciplinary area of international studies with an interest in phenomena that transcend traditional nation-state boundaries.
 
 ```{r}
 #| warn: false
 #| message: false
 #| echo: false
+#| results: hide
 layout_column_wrap( width = 1/3, fill=T,
 card(full_screen = F,
   tags$a(
@@ -108,8 +117,6 @@ card(full_screen = F,
   class="institution-card"),
 class="institution-grid"
 )
-
-
 ```
 
 ![](images/ChatGPT%20Image%20Jun%206,%202025,%2003_51_19%20PM.png){.img-background}

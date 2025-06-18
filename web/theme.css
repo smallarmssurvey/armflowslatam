@@ -61,7 +61,6 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .profile {
@@ -100,6 +99,10 @@
   display: block !important;
   flex-direction: column;
   height: 100%;
+}
+
+.output-card[data-full-screen="true"] img {
+   display: none !important;
 }
 
 .hover-card[data-full-screen="true"] .more-info,
@@ -162,9 +165,28 @@ span.navbar-title {
     display: none;
 }
 
+.card-footer {
+    padding-bottom: 0rem !important;
+}
+
 .bg-light {
     color: #343a40 !important;
     background: white !important;
+}
+
+.output-type {
+    font-size: 75%;
+    background: #343a40;
+    font-weight: 600;
+    color: white;
+    width: fit-content;
+    border-radius: 5px;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.5rem;
 }
 
 .tab-pane[data-value='hiden']{
@@ -182,7 +204,6 @@ span.navbar-title {
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .data-card[data-full-screen="true"] {
