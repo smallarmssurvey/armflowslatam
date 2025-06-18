@@ -97,14 +97,12 @@ class="institution-grid"
 )
 ```
 
-</br></br>
-The project is funded by the [**Swiss Network for International Studies**](https://snis.ch/projects/mapping-the-transnational-circulation-and-control-of-small-arms-in-latin-america/){target="_blank"} (SNIS), a body promoting academic research in the interdisciplinary area of international studies with an interest in phenomena that transcend traditional nation-state boundaries.
+</br></br> The project is funded by the [**Swiss Network for International Studies**](https://snis.ch/projects/mapping-the-transnational-circulation-and-control-of-small-arms-in-latin-america/){target="_blank"} (SNIS), a body promoting academic research in the interdisciplinary area of international studies with an interest in phenomena that transcend traditional nation-state boundaries.
 
 ```{r}
 #| warn: false
 #| message: false
 #| echo: false
-#| results: hide
 layout_column_wrap( width = 1/3, fill=T,
 card(full_screen = F,
   tags$a(
