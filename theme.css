@@ -226,4 +226,13 @@ span.navbar-title {
    display: none !important;
 }
 
+.text {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
 
