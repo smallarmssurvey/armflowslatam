@@ -226,7 +226,21 @@ span.navbar-title {
    display: none !important;
 }
 
+.data-card img {
+  height: 11rem !important;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom:0px;
+}
+
+.data-card .title {
+  background: none;
+}
+
 .text {
+  height: 5rem !important;
   aspect-ratio: 1 / 1;
   overflow: hidden;
   position: relative;
