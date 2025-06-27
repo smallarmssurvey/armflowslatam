@@ -7,6 +7,7 @@ Our project develops a comprehensive mapping of the transnational circulation an
 ## International treaties
 
 Reporting in the framework of international treaties, such as the [**Arms Trade Treaty**](https://thearmstradetreaty.org/){target="_blank"} (ATT), the [**UN Programme of Action on SALW**](https://disarmament.unoda.org/convarms/salw/programme-of-action/){target="_blank"} and the [**Inter-American Convention against the Illicit Manufacturing of and Trafficking in Firearms, Ammunition, Explosives, and Other Related Materials**](https://www.oas.org/ext/en/security/cifta){target="_blank"} (CIFTA) convention, and national legislation regulating legal flows, transfers and possession of such weapons. Also, official data-sharing mechanisms when they exist.
+
 ```{r}
 #| warn: false
 #| message: false
