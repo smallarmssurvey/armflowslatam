@@ -86,11 +86,11 @@ card(full_screen = F,
 #              class="institution-image")),  class="institution-card"),
 card(full_screen = F,
   tags$a(
-     href = "https://inspiring-girls.mx/",
+     href = "",
      target = "_blank",
   card_image(file ="images/Institutions/07_igmx.png", 
-             alt = "Inspiring Girls Mexico",
-             width="100%",
+             alt = "IGMX",
+             #width="100%",
              class="institution-image"
              )),  class="institution-card"),
 class="institution-grid"
