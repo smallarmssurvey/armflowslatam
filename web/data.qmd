@@ -4,9 +4,9 @@ title: "Data"
 
 Our project develops a comprehensive mapping of the transnational circulation and control of military-style firearms in Latin America. Our research focuses on data from the following sources:
 
-## International treaties
+## International sources
 
-Reporting in the framework of international treaties, such as the [**Arms Trade Treaty**](https://thearmstradetreaty.org/){target="_blank"} (ATT), the [**UN Programme of Action on SALW**](https://disarmament.unoda.org/convarms/salw/programme-of-action/){target="_blank"} and the [**Inter-American Convention against the Illicit Manufacturing of and Trafficking in Firearms, Ammunition, Explosives, and Other Related Materials**](https://www.oas.org/ext/en/security/cifta){target="_blank"} (CIFTA) convention, and national legislation regulating legal flows, transfers and possession of such weapons. Also, official data-sharing mechanisms when they exist.
+International sources on small arms, such as the [**Arms Trade Treaty**](https://thearmstradetreaty.org/){target="_blank"} (ATT), [**UN Comtrade**](https://comtradeplus.un.org/){target="_blank"}, [**United Nations Register of Conventional Arms**](https://www.unroca.org/){target="_blank"} (UNROCA), [**United Nations Office on Drugs and Crime**](https://www.unodc.org/){target="_blank"} (UNODC), and others to identify both legal and illegal firearms flows. National datasets from official reports, customs data aggregators, security assistance reports, and court documentation.
 
 ```{r}
 #| warn: false
@@ -20,7 +20,7 @@ suppressPackageStartupMessages({
 })
 
 layout_column_wrap( width = 1/4, gap="20px", fill=T, fillable=T,
-  card(full_screen=T,
+    card(full_screen=T,
        card_header(tags$b("ATT"), class="title"),
        card_body(tags$iframe(src='https://flo.uri.sh/story/3197086/embed',
                              class='flourish-embed-iframe', 
@@ -31,26 +31,7 @@ layout_column_wrap( width = 1/4, gap="20px", fill=T, fillable=T,
                         ), class = "viz"),
        card_image(file="images/thumbnails/05_att.png", 
                   class = "text"), 
-       class="data-card")
-)
-```
-
-## International sources
-
-International sources on small arms, such as [**UN Comtrade**](https://comtradeplus.un.org/){target="_blank"}, [**United Nations Register of Conventional Arms**](https://www.unroca.org/){target="_blank"} (UNROCA), [**United Nations Office on Drugs and Crime**](https://www.unodc.org/){target="_blank"} (UNODC), and others to identify both legal and illegal firearms flows. National datasets from official reports, customs data aggregators, security assistance reports, and court documentation.
-
-```{r}
-#| warn: false
-#| message: false
-#| echo: false
-
-suppressPackageStartupMessages({
-  library(bslib)
-  library(shiny)
-  library(htmltools)
-})
-
-layout_column_wrap( width = 1/4, gap="20px", fill=T, fillable=T,
+       class="data-card"),                    
   card(full_screen=T,
        card_header(tags$b("UN Comtrade"), class="title"),
        card_body(tags$iframe(src='https://flo.uri.sh/story/3140194/embed',

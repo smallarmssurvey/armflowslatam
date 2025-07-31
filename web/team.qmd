@@ -47,7 +47,7 @@ card(
              alt = "Monica Herz",
              class="profile"),
   card_body(
-    markdown("Monica Herz is a Senior Fellow at the Brazilian Center of International Relations (CEBRI). Monica Herz is Associate Professor and Vice-Dean of the Social Sciences Center of the Pontifical Catholic University of Rio de Janeiro. She has a PhD in International Relations from the London School of Economics and Political Science and has published three books: “International Organizations: history and practices” (coauthored with Andréa Ribeiro Hoffman and Jana Tabak), “Ecuador vs. Peru: Peacemaking Amid Rivalry” (coauthored with João Pontes Nogueira), and “Global Governance Away from the Media”."), class="hover-info"),
+    markdown("Monica Herz is a professor at the Pontifical Catholic University of Rio de Janeiro’s Institute of International Relations. She has a PhD degree from the London School of Economics and Political Science and has written books, chapters and articles about Latin American Security, regional and global governance and Brazilian foreign Policy."), class="hover-info"),
   card_footer(
     markdown("<a href='https://www.cebri.org/en/especialista/70/monica-herz' target='_blank'>More about Monica</a>"), class="more-info"),
   class="hover-card"),
@@ -133,7 +133,13 @@ card(
   card_image(file ="images/profiles/11_magda.jpeg", 
              alt = "Magda Coss", 
              class="profile"),
-  card_body(markdown("Magda Cross is a passionate gun control advocate and the Director of Inspiring Girls, Mexico, an organization that seeks to empower girls and young people through conferences and workshops. Founder of the civil society Mexico 24-0, a 24 hours without violence, focused on the prevention of violence and peacebuilding. Author of a book published by Penguin Random House."), class="hover-info"),
+  card_body(markdown("Magda Coss is a consultant, author, and founder with extensive expertise in gender-violence prevention, gender equality, and gun violence prevention. She has designed and implemented communication strategies and campaigns on these issues in over 15 countries, drawing on her strong background in international communications. Magda is the founder of 24-0 Mexico, an NGO advancing civilian disarmament and peace-building policies.
+
+As an author, Magda’s publications include the acclaimed book Firearms
+Trafficking in Mexico: Corruption, Weaponism, and the Culture of Violence,
+published by Random House, as well as research analyzing the effects of small arms and gun violence. Her recent work, Understanding the Gendered Impacts of Urban Gun Violence, was produced in collaboration with Pathfinders and Peace in Our Cities.
+
+Previously, Magda served as Chief of Staff to the president of Mexico’s National Institute for Women (INMUJERES), and is an active participant in key gun control networks. She is also the founder and president of Inspiring Girls Mexico, an initiative empowering girls and teenagers to fulfill their aspirations. Currently, through her consultancy IGMX, Magda provides expert guidance on violence prevention and the promotion of gender equality in both local and international projects."), class="hover-info"),
 card_footer(
     markdown("<a href='https://issuu.com/humanrightsdefender/docs/unswa017_human_rights_defender_publication_vol30_i/s/13112790' target='_blank'>More about Magda</a>"), class="more-info"),
   class="hover-card"),

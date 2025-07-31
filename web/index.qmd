@@ -11,15 +11,13 @@ We are an international consortium analyzing the circulation of military-style f
 
 <a href="https://www.smallarmssurvey.org/" target="_blank"> ![](images/institutions/02_sas.png){.institution fig-alt="Small Arms Survey"} </a>
 
-<a href="https://www.iri.puc-rio.br/en/home-eng/" target="_blank"> ![](images/institutions/03_puc_iri.png){.institution fig-alt="Pontifical Catholic University of Rio de Janeiro (PUC-Rio)"} </a>
-
-<a href="https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br" target="_blank"> ![](images/institutions/04_puc_hd.png){.institution fig-alt=""} </a>
+<a href="https://www.iri.puc-rio.br/en/home-eng/" target="_blank"> ![](images/institutions/03_puc_iri.png){.institution fig-alt="Pontifical Catholic University of Rio de Janeiro (PUC-Rio)" width="1010"} </a>
 
 <a href="https://soudapaz.org/" target="_blank"> ![](images/institutions/04_sou_paz.png){.institution fig-alt="Instituto Sou da Paz" style="max-height:3.5rem"} </a>
 
-<a href="https://www.cerac.org.co" target="_blank"> ![](images/institutions/05_cerac.png){.institution fig-alt="Centro de Recursos para el Análisis de Conflictos (CERAC)"} </a>
+<a href="https://www.cerac.org.co" target="_blank"> ![](images/institutions/05_cerac.png){.institution fig-alt="Centro de Recursos para el Análisis de Conflictos (CERAC)" width="303"} </a>
 
-<a href="https://inspiring-girls.mx/" target="_blank"> ![](images/institutions/07_inspiring_girls.png){.institution fig-alt="Inspiring Girls Mexico"} </a>
+![](images/institutions/07_igmx.png){.institution fig-alt="IGMX" width="60"}
 
 <!-- <a href="https://www.oas.org/en/" target="_blank"> ![](images/institutions/06_oas.png){.institution fig-alt="Organization of American States (OAS)"} </a> -->
 :::

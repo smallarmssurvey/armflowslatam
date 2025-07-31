@@ -53,7 +53,7 @@ class="institution-grid"
 
 ## Associated members
 
-The project also cooperates with regional research institutions, including [**Instituto Sou da Paz**](https://soudapaz.org){target="_blank"}, the [**State University of Rio de Janeiro**](https://www.uerj.br/){target="_blank"} (UERJ) [**Laboratório de Análise da Violência**](https://lav-uerj.org/en/institucional/){target="_blank"}, [**Inspiring Girls Mexico**](https://inspiring-girls.mx/){target="_blank"}, and the [**Conflict Analysis Resource Center**](https://www.cerac.org.co){target="_blank"} (CERAC), as well as with the [**Organization of American States**](https://www.oas.org){target="_blank"} (OAS).
+The project also cooperates with regional research institutions, including [**Instituto Sou da Paz**](https://soudapaz.org){target="_blank"}, the [**State University of Rio de Janeiro**](https://www.uerj.br/){target="_blank"} (UERJ) [**Laboratório de Análise da Violência**](https://lav-uerj.org/en/institucional/){target="_blank"}, **IGMX Consulting and Research for Equality** (IGMX), and the [**Conflict Analysis Resource Center**](https://www.cerac.org.co){target="_blank"} (CERAC), as well as with the [**Organization of American States**](https://www.oas.org){target="_blank"} (OAS).
 
 ```{r}
 #| warn: false
@@ -88,10 +88,10 @@ card(full_screen = F,
   tags$a(
      href = "https://inspiring-girls.mx/",
      target = "_blank",
-  card_image(file ="images/Institutions/07_inspiring_girls.png", 
+  card_image(file ="images/Institutions/07_igmx.png", 
              alt = "Inspiring Girls Mexico",
-             width="100%"
-             #class="institution-image"
+             width="100%",
+             class="institution-image"
              )),  class="institution-card"),
 class="institution-grid"
 )
