@@ -101,7 +101,11 @@ card(
   card_image(file ="images/profiles/08_bruno.jpg", 
              alt = "Bruno Langeani", 
              class="profile"),
-  card_body(markdown("Bruno Langeani advises Instituto Sou da Paz’s research projects related to regulation and the illicit market of weapons and ammunition, drug policy and police and criminal justice reform. He worked closely with the São Paulo Military Police Commander to improve stop-and-frisk procedures and crowd management. He has done several projects related with profiling of firearms and ammunition, lifecycle and diversion of weapons and its impact on armed violence. He also conducted an evaluation of the Global Firearms Programme for UNODC."), class="hover-info"),
+  card_body(markdown("Bruno Langeani is a Data Analyst at Conflict Armament Research (CAR), where he cleans, harmonises and interrogates multi-regional datasets to map illicit-weapons flows and support CAR’s research and policy work.
+
+As Senior Consultant to the Sou da Paz Institute, he leads studies on gun-control regulation, firearms and ammunition profiling, and tracing. As a specialist in public-security research, Bruno has published widely on firearms diversion and armed violence, including the book Arma de Fogo no Brasil: Gatilho da Violência (2021).
+
+For the UNODC Global Firearms Programme he served as a firearms expert evaluating programme impact, while for the OAS Programme of Assistance on Control of Arms and Munition (PACAM) he delivered legislative gap analyses and provided technical assistance and capacity-building covering the full life-cycle management of firearms and ammunition across the Americas."), class="hover-info"),
   card_footer(
     markdown("<a href='https://www.forumarmstrade.org/langeani.html' target='_blank'>More about Bruno</a>"), class="more-info"),
   class="hover-card"
