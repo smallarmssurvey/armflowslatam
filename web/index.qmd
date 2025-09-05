@@ -15,6 +15,8 @@ We are an international consortium analyzing the circulation of military-style f
 
 <a href="https://soudapaz.org/" target="_blank"> ![](images/institutions/04_sou_paz.png){.institution fig-alt="Instituto Sou da Paz" style="max-height:3.5rem"} </a>
 
+<a href="https://lav-uerj.org/" target="_blank"> ![](images/institutions/08_lav.png){.institution fig-alt="Laboratório de Análise da Violência of the State University of Rio de Janeiro" style="max-height:3.5rem"} </a>
+
 <a href="https://www.cerac.org.co" target="_blank"> ![](images/institutions/05_cerac.png){.institution fig-alt="Centro de Recursos para el Análisis de Conflictos (CERAC)" width="303"} </a>
 
 ![](images/institutions/07_igmx.png){.institution fig-alt="IGMX" width="60"}
@@ -22,4 +24,4 @@ We are an international consortium analyzing the circulation of military-style f
 <!-- <a href="https://www.oas.org/en/" target="_blank"> ![](images/institutions/06_oas.png){.institution fig-alt="Organization of American States (OAS)"} </a> -->
 :::
 
-![](images/ChatGPT%20Image%20Jun%206,%202025,%2003_51_19%20PM.png){.img-background}
+![](images/ak47_exploded.png){.img-background}
