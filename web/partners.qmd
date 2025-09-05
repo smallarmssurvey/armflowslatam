@@ -41,7 +41,7 @@ card(
 card(
   full_screen = F,
    tags$a(
-     href = "https://www.iri.puc-rio.br",
+     href = "https://laboratoriodehumanidadesdigitais.usuarios.rdc.puc-rio.br/en/home-english/about-puc-rios-digital-humanities-lab-dhlab",
      target = "_blank",
   card_image(file ="images/Institutions/03_puc_iri.png", 
              alt = "Pontifical Catholic University of Rio de Janeiro (PUC-Rio)",
