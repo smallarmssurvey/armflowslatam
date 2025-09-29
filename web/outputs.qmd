@@ -18,9 +18,23 @@ suppressPackageStartupMessages({
 layout_column_wrap( width = 1/3,
 card(
   full_screen = TRUE,
+  card_header(tags$div("Article", class="output-type"), 
+              tags$b("Blind Fire: The Rise of Military-Style Firearms amid Regulatory Failures and Data Deficiency in Brazil"), 
+              class = "bg-light"),
+  card_body(
+    markdown("**By Bruno Langeani and Natalia Pollachi**<br/><br/>
+             The illicit circulation of military-style firearms (MSF) in Brazil has increased, raising concerns about its impact on violence and organized crime. This study analyses firearm seizure data from Brazil’s Southeast region (2019–2023) to assess the growth and profile of these weapons. While MSF still represents a small fraction of total seizures (rising from 1.7% to 2.4% nationwide and 3% to 4.3% in the Southeast), their presence in criminal hands has escalated.<br/>
+Two key dynamics shape this landscape. First, severe limitations in data collection hinder accurate diagnostics and policymaking. Key information—such as privately made or modified firearms—remains uncollected, and available data is often inconsistent. Second, the proliferation of MSF has been driven by both domestic and international regulatory factors, particularly for rifles. The relaxation of gun laws under the Bolsonaro administration (2019–2022) facilitated legal access to semi-automatic rifles, some of which were diverted to criminal networks. Meanwhile, the United States remains a major source of both complete firearms and unmarked components, sustaining Brazil’s illicit market.<br/>
+Additionally, a high percentage of seized weapons lack proper classification, further complicating law enforcement efforts to track and disrupt illicit firearm flows. Addressing this issue requires strengthening regulatory frameworks, forensic capabilities, and data transparency to curb the expanding role of MSF in Brazil’s criminal landscape."), class="hover-info"),
+  card_image(file="images/outputs/68d2979a247ab.png", class="output"),
+  card_footer(
+    markdown("<a href='https://jied.lse.ac.uk/articles/10.31389/jied.300' target='_blank'>More about the article</a>"), 
+    class="more-info"),
+  class="output-card"),
+card(
+  full_screen = TRUE,
   card_header(tags$div("Blogpost", class="output-type"), 
-              tags$b("Alarmed and Uninformed: The Increase in the Seizure
-of Rifles in Brazil"), 
+              tags$b("Alarmed and Uninformed: The Increase in the Seizure of Rifles in Brazil"), 
               class = "bg-light"),
   card_body(
     markdown("**By Bruno Langeani**<br/><br/>
@@ -46,17 +60,6 @@ card(
 #  full_screen = TRUE,
   card_header(tags$div("Article", class="output-type"), 
               tags$b("The Authorized Trade in Small Arms: Latin America in Global Context"), 
-              class = "bg-light"),
-  card_body(
-      ),
-  card_footer(
-    markdown("<a href='' target='_blank'>More about the article</a>"), 
-    class="more-info"),
-  class="output-card"),
-card(
-  #full_screen = TRUE,
-  card_header(tags$div("Article", class="output-type"), 
-              tags$b("Blind Fire: The Rise of Military-Style Firearms amid Regulatory Failures and Data Deficiency in Brazil"), 
               class = "bg-light"),
   card_body(
       ),

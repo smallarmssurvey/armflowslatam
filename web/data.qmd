@@ -4,6 +4,35 @@ title: "Data"
 
 Our project develops a comprehensive mapping of the transnational circulation and control of military-style firearms in Latin America. Our research focuses on data from the following sources:
 
+## National sources
+```{r}
+#| warn: false
+#| message: false
+#| echo: false
+
+suppressPackageStartupMessages({
+  library(bslib)
+  library(shiny)
+  library(htmltools)
+})
+
+layout_column_wrap( width = 1/4, gap="20px", fill=T, fillable=T,
+    card(full_screen=F,
+       card_header(tags$b("Zeonodo Brazil dataset"), class="title"),
+       card_body(tags$iframe(src='https://zenodo.org/records/17041368',
+                           #  class='flourish-embed-iframe', 
+                             frameborder='0', 
+                             scrolling='no', 
+                             style='width:100%;height:100%;',
+                             sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'
+                        ), class = "viz"),
+    #   card_image(file="images/thumbnails/05_att.png", 
+    #              class = "text"), 
+    card_body("The dataset can be downloaded at: https://zenodo.org/records/17041368."),
+       class="data-card")
+)
+    
+```
 ## International sources
 
 International sources on small arms, such as the [**Arms Trade Treaty**](https://thearmstradetreaty.org/){target="_blank"} (ATT), [**UN Comtrade**](https://comtradeplus.un.org/){target="_blank"}, [**United Nations Register of Conventional Arms**](https://www.unroca.org/){target="_blank"} (UNROCA), [**United Nations Office on Drugs and Crime**](https://www.unodc.org/){target="_blank"} (UNODC), and others to identify both legal and illegal firearms flows. National datasets from official reports, customs data aggregators, security assistance reports, and court documentation.
