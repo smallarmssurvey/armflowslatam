@@ -28,7 +28,11 @@ layout_column_wrap( width = 1/4, gap="20px", fill=T, fillable=T,
                         ), class = "viz"),
     #   card_image(file="images/thumbnails/05_att.png", 
     #              class = "text"), 
-    card_body("The dataset can be downloaded at: https://zenodo.org/records/17041368."),
+card_body(tagList(
+    a("Download the dataset", 
+      href = "https://zenodo.org/records/17041368", 
+      target = "_blank")
+  )),
        class="data-card")
 )
     
