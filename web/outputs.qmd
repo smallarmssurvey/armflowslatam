@@ -18,6 +18,18 @@ suppressPackageStartupMessages({
 layout_column_wrap( width = 1/3,
 card(
   full_screen = TRUE,
+  card_header(tags$div("Podcast", class="output-type"), 
+              tags$b("Tracing the Flow of Firearms: Understanding the Circulation and Control of Small Arms in Latin America"), 
+              class = "bg-light"),
+  card_body(
+    markdown("In this episode, Jennifer Thornquest speaks with Nicolas Florquin, Head of Data and Analytics at the Small Arms Survey, about the transnational circulation and control of small arms in Latin America. Their conversation explores the drivers, risks, and regulation of military-style firearms across state and non-state spheres, with a particular focus on Brazil. Florquin discusses the dynamics behind both legal and illicit flows of these weapons, how they enter criminal markets, and the risks of diversion from authorised trade. Together they examine the broader project—Mapping the Transnational Circulation and Control of Small Arms in Latin America—which brings together research partners to understand how weapons circulate across borders, the socio-political dynamics shaping this circulation, and potential policy responses to reduce violence and strengthen cooperation."), class="hover-info"),
+  card_image(file="images/outputs/ccdp_podcast.png", class="output"),
+  card_footer(
+    markdown("<a href='https://ccdp-spotlight-podcast.simplecast.com/episodes/s2e5-tracing-the-flow-of-firearms-understanding-the-circulation-and-control-of-small-arms-in-latin-america' target='_blank'>Listen the podcast</a>"), 
+    class="more-info"),
+  class="output-card"),                    
+card(
+  full_screen = TRUE,
   card_header(tags$div("Article", class="output-type"), 
               tags$b("Blind Fire: The Rise of Military-Style Firearms amid Regulatory Failures and Data Deficiency in Brazil"), 
               class = "bg-light"),
